@@ -45,7 +45,7 @@ class faculty extends user {
     public void logIn() {
         Scanner s = new Scanner(System.in);
         System.out.println("Welcome Teacher!");
-        System.out.println("Enter the Username : ");
+        System.out.println("Enter the User : ");
         this.userName = s.nextLine();
         System.out.println("Enter the Password : ");
         this.password = s.nextLine();
